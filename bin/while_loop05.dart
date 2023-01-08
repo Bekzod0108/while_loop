@@ -15,13 +15,13 @@ int func(int a){
     b+=a;
     {a=a-1;}
   }
-  
+
    while(a%2==0&&a>1){
     c+=a;
     {a=a-2;}
   }
   while(a%2==1&&a>2){
-    {a=a-1;}
+    {a=a-1;} //gegwgo
     c+=a;
     {a=a-1;}
   }
